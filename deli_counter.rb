@@ -3,7 +3,8 @@ katz_deli = []
 def take_a_number(array, name)
   if array == []
     array.unshift(name)
-    puts "Welcome, #{name}"
+    arrleng 
+    puts "Welcome, #{name}. You are number #{array.length + 1} in line. "
 
   else
 
