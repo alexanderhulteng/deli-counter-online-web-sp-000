@@ -7,13 +7,13 @@ def take_a_number(array, name)
 end
 
 def line(array)
-peopleInLine = ""
+
 
   if array == []
     puts "The line is currently empty."
   else
-    array.each { |n| peopleInLine = peopleInLine + n }
-
+    array.each do |array|
+      puts array
     end
 
   end
