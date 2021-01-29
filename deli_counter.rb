@@ -21,6 +21,7 @@ lineMan = ""
       lineMan = lineMan + "#{index + 1}. #{item} "
 
   end
+  puts lineMan
 end
   end
 
