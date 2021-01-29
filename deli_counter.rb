@@ -12,7 +12,7 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    array.each do |array|
+    array.each do |n|
       puts array
     end
 
