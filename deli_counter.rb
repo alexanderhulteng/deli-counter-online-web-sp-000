@@ -3,11 +3,13 @@ katz_deli = ["barf", "marf", "slarf"]
 def take_a_number(array, name)
   if array == []
     array.unshift(name)
+
   else
 
   array << name
 
 end
+puts array
 end
 
 def line(array)
