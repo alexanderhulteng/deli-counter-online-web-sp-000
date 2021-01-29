@@ -7,7 +7,7 @@ def take_a_number(array, name)
 end
 
 def line(array)
-
+n
 
   if array == []
     puts "The line is currently empty."
