@@ -1,11 +1,9 @@
 katz_deli = []
 
 def take_a_number(array, name)
- if array = []
+ 
   array << name
-else
-  array << name
-end
+
 end
 
 def line(array)
