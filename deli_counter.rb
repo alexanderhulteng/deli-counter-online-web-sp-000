@@ -13,7 +13,7 @@ def line(array)
     puts "The line is currently empty."
   else
     puts "The line is currently #{array}"
-  
+
   end
 
   end
