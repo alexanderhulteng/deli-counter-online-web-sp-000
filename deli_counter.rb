@@ -21,7 +21,7 @@ lineMan = ""
       lineMan = lineMan + "#{index + 1}. #{item} "
 
   end
-  puts lineMan
+  puts "The line is currently:#{lineMan}"
 end
   end
 
