@@ -20,7 +20,7 @@ def line(array)
       puts "#{index}, #{item}"
 
   end
-
+end
   end
 
 def now_serving(array)
