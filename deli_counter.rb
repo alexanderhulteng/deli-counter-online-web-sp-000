@@ -1,6 +1,9 @@
 katz_deli = []
 
 def take_a_number(array, name)
+  if array == []
+    array.unshift(name)
+  else
 
   array << name
 
