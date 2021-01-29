@@ -35,3 +35,4 @@ end
 
 end
 take_a_number(katz_deli, "shwann")
+ruby deli_counter.rb
