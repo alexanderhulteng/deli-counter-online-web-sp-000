@@ -7,14 +7,11 @@ def take_a_number(array, name)
 end
 
 def line(array)
-n
+
 
   if array == []
     puts "The line is currently empty."
-  else
-    array.each do |n|
-      puts n
-    end
+  end
 
   end
 
