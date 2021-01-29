@@ -18,7 +18,7 @@ lineMan = ""
   else
     array.each_with_index do |item, index|
 
-      lineMan = lineMan + "#{index + 1}. #{item} "
+      lineMan = lineMan + "#{index + 1}. #{item} ".rstrip
 
   end
   puts "The line is currently: #{lineMan}"
