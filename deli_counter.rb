@@ -1,4 +1,4 @@
-katz_deli = [barf, marf, slarf]
+katz_deli = ["barf", "marf", "slarf"]
 
 def take_a_number(array, name)
   if array == []
