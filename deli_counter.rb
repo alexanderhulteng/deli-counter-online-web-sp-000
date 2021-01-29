@@ -16,7 +16,8 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    puts "The line is currently #{array}"
+    array.each_with_index do |item, index|
+      puts "#{index}, #{item}"
 
   end
 
