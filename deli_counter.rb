@@ -17,7 +17,7 @@ lineMan = ""
     puts "The line is currently empty."
   else
     array.each_with_index do |item, index|
-      
+
       lineMan = lineMan + "#{index + 1}. #{item} "
 
   end
